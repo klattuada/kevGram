@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "9a6e05e3-4425-4fd8-bd46-5a8e43d91a34",
+                "Y": 632.7534942626953,
+                "RelativeX": 0,
+                "RelativeY": 632,
+                "position": "absolute",
+                "edgeOffsets": 632.7534942626953,
+                "style": {
+                    "position": "absolute",
+                    "left": "72.05182160193158%",
+                    "top": "62.63202923626418%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "41e82ef0-a87b-4db2-ba3d-ec47aea39494",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -347,10 +377,10 @@
                 "Height": 55,
                 "Width": 162,
                 "Visible": true,
-                "X": 107,
-                "Y": 470,
-                "RelativeX": 107,
-                "RelativeY": 470,
+                "X": 9,
+                "Y": 476,
+                "RelativeX": 9,
+                "RelativeY": 476,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -381,7 +411,7 @@
                 "Disabled": false,
                 "ParentId": "9a6e05e3-4425-4fd8-bd46-5a8e43d91a34",
                 "position": "absolute",
-                "edgeOffsets": 470
+                "edgeOffsets": 476
             },
             "children": [],
             "id": "3d984f82-d9bd-4253-9b18-6163ca54aa55",
@@ -401,9 +431,9 @@
                 "Height": 64,
                 "Width": 171,
                 "Visible": true,
-                "X": 102,
+                "X": 5,
                 "Y": 400,
-                "RelativeX": 102,
+                "RelativeX": 5,
                 "RelativeY": 400,
                 "ResizeMode": "STRETCH",
                 "style": {
